@@ -1,0 +1,393 @@
+Year,State,Death Rate,Deaths
+2020,Alabama,14.2,654
+2020,Alaska,7.3,55
+2020,Arizona,7.5,525
+2020,Arkansas,13.0,371
+2020,California,6.1,2368
+2020,Colorado,5.8,336
+2020,Connecticut,4.6,152
+2020,Delaware,9.9,86
+2020,Florida,7.8,1530
+2020,Georgia,10.5,1093
+2020,Hawaii,3.3,46
+2020,Idaho,2.5,42
+2020,Illinois,11.2,1353
+2020,Indiana,9.7,620
+2020,Iowa,3.6,106
+2020,Kansas,7.0,195
+2020,Kentucky,9.5,404
+2020,Louisiana,19.9,873
+2020,Maine,1.6,21
+2020,Maryland,11.4,649
+2020,Massachusetts,2.7,183
+2020,Michigan,8.7,811
+2020,Mississippi,20.5,576
+2020,Missouri,14.0,803
+2020,Montana,6.6,65
+2020,Nebraska,4.1,76
+2020,Nevada,7.3,217
+2020,New Hampshire,0.0,14
+2020,New Jersey,4.3,362
+2020,New Mexico,10.8,216
+2020,New York,4.7,875
+2020,North Carolina,8.6,884
+2020,North Dakota,4.4,30
+2020,Ohio,9.1,1004
+2020,Oklahoma,9.0,342
+2020,Oregon,3.8,157
+2020,Pennsylvania,8.5,994
+2020,Rhode Island,3.0,29
+2020,South Carolina,12.7,622
+2020,South Dakota,6.5,52
+2020,Tennessee,11.5,753
+2020,Texas,7.6,2212
+2020,Utah,2.9,95
+2020,Vermont,0.0,14
+2020,Virginia,6.4,531
+2020,Washington,4.2,322
+2020,West Virginia,7.0,114
+2020,Wisconsin,6.1,334
+2020,Wyoming,4.9,25
+2019,Alabama,12.8,587
+2019,Alaska,10.8,78
+2019,Arizona,5.9,414
+2019,Arkansas,9.4,270
+2019,California,4.5,1794
+2019,Colorado,4.3,250
+2019,Connecticut,3.1,106
+2019,Delaware,6.1,53
+2019,Florida,6.7,1334
+2019,Georgia,8.1,849
+2019,Hawaii,2.5,35
+2019,Idaho,1.7,27
+2019,Illinois,8.1,979
+2019,Indiana,7.2,466
+2019,Iowa,2.7,80
+2019,Kansas,4.9,137
+2019,Kentucky,5.9,250
+2019,Louisiana,14.7,650
+2019,Maine,1.8,23
+2019,Maryland,10.0,578
+2019,Massachusetts,2.3,157
+2019,Michigan,6.5,612
+2019,Mississippi,15.4,434
+2019,Missouri,10.8,628
+2019,Montana,3.7,39
+2019,Nebraska,3.1,58
+2019,Nevada,5.5,166
+2019,New Hampshire,2.8,38
+2019,New Jersey,3.4,287
+2019,New Mexico,11.8,230
+2019,New York,3.2,601
+2019,North Carolina,7.0,707
+2019,North Dakota,3.1,21
+2019,Ohio,6.6,724
+2019,Oklahoma,8.8,333
+2019,Oregon,3.0,126
+2019,Pennsylvania,6.1,722
+2019,Rhode Island,2.5,23
+2019,South Carolina,11.0,527
+2019,South Dakota,3.6,29
+2019,Tennessee,9.2,596
+2019,Texas,5.9,1694
+2019,Utah,2.6,82
+2019,Vermont,0.0,11
+2019,Virginia,5.3,436
+2019,Washington,3.2,241
+2019,West Virginia,5.7,92
+2019,Wisconsin,4.2,226
+2019,Wyoming,4.4,25
+2018,Alabama,12.2,568
+2018,Alaska,7.5,56
+2018,Arizona,6.1,420
+2018,Arkansas,9.1,264
+2018,California,4.8,1890
+2018,Colorado,4.7,263
+2018,Connecticut,2.8,92
+2018,Delaware,6.8,57
+2018,Florida,6.6,1315
+2018,Georgia,7.7,794
+2018,Hawaii,3.1,40
+2018,Idaho,2.3,41
+2018,Illinois,8.0,994
+2018,Indiana,7.4,473
+2018,Iowa,2.7,81
+2018,Kansas,5.9,160
+2018,Kentucky,6.1,258
+2018,Louisiana,13.3,598
+2018,Maine,0.0,19
+2018,Maryland,9.3,541
+2018,Massachusetts,2.3,158
+2018,Michigan,6.5,613
+2018,Mississippi,13.4,382
+2018,Missouri,11.4,658
+2018,Montana,4.2,42
+2018,Nebraska,1.9,35
+2018,Nevada,7.7,225
+2018,New Hampshire,1.8,21
+2018,New Jersey,3.7,311
+2018,New Mexico,10.8,215
+2018,New York,3.2,611
+2018,North Carolina,6.4,647
+2018,North Dakota,2.5,20
+2018,Ohio,6.8,760
+2018,Oklahoma,7.0,265
+2018,Oregon,2.5,102
+2018,Pennsylvania,6.4,781
+2018,Rhode Island,0.0,16
+2018,South Carolina,10.2,481
+2018,South Dakota,3.9,32
+2018,Tennessee,9.2,604
+2018,Texas,5.4,1557
+2018,Utah,2.2,67
+2018,Vermont,0.0,14
+2018,Virginia,5.1,425
+2018,Washington,3.7,275
+2018,West Virginia,5.8,97
+2018,Wisconsin,3.9,204
+2018,Wyoming,4.1,22
+2017,Alabama,12.9,602
+2017,Alaska,10.6,78
+2017,Arizona,6.6,441
+2017,Arkansas,9.8,278
+2017,California,5.1,"2,022"
+2017,Colorado,4.6,261
+2017,Connecticut,3.2,109
+2017,Delaware,6.9,63
+2017,Florida,6.4,"1,269"
+2017,Georgia,7.9,810
+2017,Hawaii,2.5,35
+2017,Idaho,3.0,50
+2017,Illinois,9.0,"1,120"
+2017,Indiana,7.2,456
+2017,Iowa,3.4,104
+2017,Kansas,6.5,185
+2017,Kentucky,7.3,310
+2017,Louisiana,14.4,653
+2017,Maine,0.0,19
+2017,Maryland,10.2,587
+2017,Massachusetts,2.6,171
+2017,Michigan,6.3,588
+2017,Mississippi,12.7,360
+2017,Missouri,11.3,655
+2017,Montana,4.3,42
+2017,Nebraska,2.7,50
+2017,Nevada,7.6,221
+2017,New Hampshire,0.0,17
+2017,New Jersey,4.1,352
+2017,New Mexico,8.5,173
+2017,New York,3.0,577
+2017,North Carolina,6.9,679
+2017,North Dakota,0.0,15
+2017,Ohio,7.5,828
+2017,Oklahoma,8.5,318
+2017,Oregon,3.1,127
+2017,Pennsylvania,6.6,791
+2017,Rhode Island,0.0,19
+2017,South Carolina,9.3,444
+2017,South Dakota,4.2,34
+2017,Tennessee,8.8,557
+2017,Texas,5.8,"1,653"
+2017,Utah,2.6,79
+2017,Vermont,0.0,15
+2017,Virginia,5.4,455
+2017,Washington,3.6,266
+2017,West Virginia,6.5,112
+2017,Wisconsin,3.7,202
+2017,Wyoming,0.0,19
+2016,Alabama,11.8,544
+2016,Alaska,7.3,54
+2016,Arizona,6.3,420
+2016,Arkansas,8.7,248
+2016,California,5.3,"2,074"
+2016,Colorado,4.3,235
+2016,Connecticut,2.7,88
+2016,Delaware,7.0,63
+2016,Florida,6.8,"1,294"
+2016,Georgia,7.9,806
+2016,Hawaii,2.8,39
+2016,Idaho,1.9,30
+2016,Illinois,9.2,"1,157"
+2016,Indiana,7.6,480
+2016,Iowa,2.8,85
+2016,Kansas,5.3,147
+2016,Kentucky,7.2,302
+2016,Louisiana,14.3,648
+2016,Maine,0.0,19
+2016,Maryland,10.1,579
+2016,Massachusetts,2.1,137
+2016,Michigan,6.7,624
+2016,Mississippi,12.1,345
+2016,Missouri,9.9,570
+2016,Montana,4.3,42
+2016,Nebraska,3.3,60
+2016,Nevada,7.4,211
+2016,New Hampshire,0.0,18
+2016,New Jersey,4.6,395
+2016,New Mexico,9.4,185
+2016,New York,3.6,696
+2016,North Carolina,7.4,735
+2016,North Dakota,0.0,17
+2016,Ohio,6.5,721
+2016,Oklahoma,8.6,322
+2016,Oregon,3.3,129
+2016,Pennsylvania,6.0,723
+2016,Rhode Island,2.3,25
+2016,South Carolina,9.0,426
+2016,South Dakota,4.7,38
+2016,Tennessee,8.8,563
+2016,Texas,6.0,"1,669"
+2016,Utah,2.5,80
+2016,Vermont,0.0,11
+2016,Virginia,5.5,455
+2016,Washington,2.9,216
+2016,West Virginia,6.3,108
+2016,Wisconsin,4.8,256
+2016,Wyoming,0.0,17
+2015,Alabama,10.2,473
+2015,Alaska,8.0,62
+2015,Arizona,5.5,364
+2015,Arkansas,7.4,217
+2015,California,5.0,"1,987"
+2015,Colorado,3.7,206
+2015,Connecticut,3.6,124
+2015,Delaware,7.5,65
+2015,Florida,6.3,"1,208"
+2015,Georgia,7.3,738
+2015,Hawaii,2.2,31
+2015,Idaho,2.0,33
+2015,Illinois,6.9,863
+2015,Indiana,6.0,389
+2015,Iowa,2.5,73
+2015,Kansas,4.7,132
+2015,Kentucky,5.8,250
+2015,Louisiana,12.4,569
+2015,Maine,1.7,22
+2015,Maryland,10.3,596
+2015,Massachusetts,2.1,144
+2015,Michigan,6.4,597
+2015,Mississippi,11.3,325
+2015,Missouri,9.6,547
+2015,Montana,4.0,38
+2015,Nebraska,4.0,75
+2015,Nevada,6.7,191
+2015,New Hampshire,0.0,18
+2015,New Jersey,4.5,388
+2015,New Mexico,8.0,157
+2015,New York,3.4,671
+2015,North Carolina,6.1,593
+2015,North Dakota,3.1,22
+2015,Ohio,6.0,669
+2015,Oklahoma,8.5,324
+2015,Oregon,3.4,138
+2015,Pennsylvania,5.6,673
+2015,Rhode Island,2.8,28
+2015,South Carolina,9.5,448
+2015,South Dakota,4.2,35
+2015,Tennessee,7.2,460
+2015,Texas,5.6,"1,538"
+2015,Utah,2.0,60
+2015,Vermont,0.0,16
+2015,Virginia,4.5,374
+2015,Washington,3.4,239
+2015,West Virginia,4.5,80
+2015,Wisconsin,4.5,243
+2015,Wyoming,0.0,17
+2014,Alabama,8.1,374
+2014,Alaska,4.7,37
+2014,Arizona,5.0,322
+2014,Arkansas,7.7,217
+2014,California,4.6,"1,813"
+2014,Colorado,3.3,177
+2014,Connecticut,2.9,100
+2014,Delaware,6.6,57
+2014,Florida,6.2,"1,159"
+2014,Georgia,6.6,658
+2014,Hawaii,2.2,30
+2014,Idaho,2.4,36
+2014,Illinois,6.2,792
+2014,Indiana,5.7,364
+2014,Iowa,2.5,78
+2014,Kansas,3.6,104
+2014,Kentucky,4.7,203
+2014,Louisiana,11.7,538
+2014,Maine,2.0,23
+2014,Maryland,6.7,387
+2014,Massachusetts,2.0,133
+2014,Michigan,6.3,589
+2014,Mississippi,11.4,332
+2014,Missouri,7.5,441
+2014,Montana,2.9,30
+2014,Nebraska,3.4,63
+2014,Nevada,6.3,176
+2014,New Hampshire,0.0,17
+2014,New Jersey,4.4,372
+2014,New Mexico,6.8,135
+2014,New York,3.4,662
+2014,North Carolina,5.6,551
+2014,North Dakota,0.0,15
+2014,Ohio,5.2,578
+2014,Oklahoma,6.6,250
+2014,Oregon,2.4,99
+2014,Pennsylvania,5.2,620
+2014,Rhode Island,2.5,27
+2014,South Carolina,7.6,363
+2014,South Dakota,3.1,26
+2014,Tennessee,6.5,417
+2014,Texas,5.2,"1,389"
+2014,Utah,2.0,61
+2014,Vermont,0.0,16
+2014,Virginia,4.1,339
+2014,Washington,3.1,211
+2014,West Virginia,5.9,103
+2014,Wisconsin,3.0,166
+2014,Wyoming,4.4,24
+2005,Alabama,9.6,433
+2005,Alaska,5.2,37
+2005,Arizona,9.0,532
+2005,Arkansas,8.0,219
+2005,California,6.9,"2,540"
+2005,Colorado,3.8,182
+2005,Connecticut,3.2,107
+2005,Delaware,6.6,55
+2005,Florida,5.8,998
+2005,Georgia,7.1,649
+2005,Hawaii,1.9,25
+2005,Idaho,3.2,45
+2005,Illinois,6.8,866
+2005,Indiana,5.9,368
+2005,Iowa,1.6,44
+2005,Kansas,3.9,106
+2005,Kentucky,5.4,222
+2005,Louisiana,12.8,592
+2005,Maine,1.7,22
+2005,Maryland,10.4,576
+2005,Massachusetts,2.8,178
+2005,Michigan,6.9,677
+2005,Mississippi,9.0,254
+2005,Missouri,7.3,417
+2005,Montana,3.4,33
+2005,Nebraska,2.5,44
+2005,Nevada,7.8,190
+2005,New Hampshire,0.0,19
+2005,New Jersey,5.1,427
+2005,New Mexico,7.9,152
+2005,New York,4.7,901
+2005,North Carolina,7.6,661
+2005,North Dakota,0.0,11
+2005,Ohio,5.6,630
+2005,Oklahoma,6.1,214
+2005,Oregon,2.9,102
+2005,Pennsylvania,6.3,749
+2005,Rhode Island,3.1,32
+2005,South Carolina,7.9,337
+2005,South Dakota,2.9,22
+2005,Tennessee,8.3,495
+2005,Texas,6.5,"1,501"
+2005,Utah,2.4,63
+2005,Vermont,0.0,12
+2005,Virginia,6.4,490
+2005,Washington,3.6,231
+2005,West Virginia,5.4,93
+2005,Wisconsin,4.3,236
+2005,Wyoming,0.0,16

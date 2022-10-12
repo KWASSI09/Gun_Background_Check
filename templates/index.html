@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+
+    <title>Project 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+    <!--<link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />-->
+    <link href="../static/css/style.css" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+
+  <!-- Leaflet JavaScript code -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Project 3</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">data</a>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link" href="tableau.html">Tableau Visualization</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Gun Background Check <span class="text-warning"> In the USA's States </span></h1>
+            <p class="lead my-4">
+              Buying Gun from a licensed firearm store in the US does require you to go through a check on the National Instant Criminal Background Check System (NICS). 
+              This has prevented more than 2 million prohibited purchasers from buying guns to date. The effectiveness of these background checks is therefore very clear, and demonstrates how easily dangerous people can be kept from buying weapons with checks in place. 
+              Unfortunately licensed firearm dealers account for only 60% of sales of guns, meaning 40% of sales go through private dealers, and do so unchecked.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <session class="p-5">
+      <div class="container">
+        <h1>NICS Firearm Checks: Month/year by State</h1>
+        <p>
+          Statistics representing the firearms background checks by state initiated through the NCIS from November 1998 to September 2022
+        </p>
+        <a href="https://www.fbi.gov/file-repository/nics_firearm_checks_-_month_year_by_state.pdf/view" class="btn btn-dark">access Data</a>
+        <div id="map">
+          
+
+        </div>
+        <!--<div class='tableauPlaceholder' id='viz1665344631139' style='position: relative'><noscript><a href='#'>
+          <img alt='Avg income per state in 2021 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project3GunBackgroundCheck8&#47;Avgincomeperstatein2021&#47;1_rss.png' style='border: none' /></a>
+          </noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Project3GunBackgroundCheck8&#47;Avgincomeperstatein2021' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;Project3GunBackgroundCheck8&#47;Avgincomeperstatein2021&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object>
+        </div>                
+        <script type='text/javascript'> var divElement = document.getElementById('viz1665344631139');var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px'; var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+      -->
+
+      </div>
+
+
+    </session>
+
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="card" style="width:100%;">
+                  <img src="..\Images\check.jpg" class="card-img-top" alt=""/>
+                </div>
+                <h3 class="card-title mb-3">Gun Checks</h3>
+                <p class="card-text">
+                  The NICS conducts background checks on people who want to own a firearm or explosive, as required by law
+                </p>
+                <a href="https://www.fbi.gov/how-we-can-help-you/need-an-fbi-service-or-more-information/nics" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="card" style="width:100%;">
+                  <img src="..\Images\firearm.jpg" class="card-img-top" alt=""/>
+                </div>
+                <h3 class="card-title mb-3">Firearm</h3>
+                <p class="card-text">
+                  Firearm homicide is a complex issue that includes different types of gun violence — domestic violence, interpersonal community violence,  mass shootings, and police-involved shootings — and requires an array of different policies if we want to see meaningful change.
+                </p>
+                <a href="https://efsgv.org/learn/type-of-gun-violence/firearm-homicide/" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="card" style="width:100%;">
+                  <img src="..\Images\statistics.jpg" class="card-img-top" alt=""/>
+                </div>
+                <h3 class="card-title mb-3">Gun Violence Statistics</h3>
+                <p class="card-text">
+                  Gun violence exacts an enormous toll on American society—claiming tens of thousands of lives each year. By clicking the link below, you will access statistics lay out the devastating scope of this American crisis.
+                </p>
+                <a href="https://giffords.org/lawcenter/gun-violence-statistics/" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <iframe width="700" height="500" src="https://www.youtube.com/embed/L6-QDdPxoKI" title="Gun violence: An American epidemic? l ABC News" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+          
+          </div>
+          <div class="col-md p-5">
+            <h2>Gun transaction in the US should go through a background check</h2>
+            <p>
+              Among wealthier, developed countries, the USA is an outlier when it comes to firearm violence. US governments have allowed gun violence to become a human rights crisis. Wide access to firearms and loose regulations lead to more than 39,000 men, women and children being killed with guns each year in the USA.
+              On average, more than 360 people in the USA are shot every day and survive – at least long enough to get to a hospital.
+              In 2017, some 39,773 died from gunshot injuries, an average of nearly 109 people each day. Per capita, this is significantly higher than in other industrialized countries. Firearm homicides in the USA disproportionately impact communities of colour and particularly young black men.
+              The USA lacks measures such as a national firearm registry.
+              Individuals can lawfully carry concealed firearms in public in every state in the USA and can lawfully openly carry firearms in public in most states. However, there is no nationwide uniformity in laws governing the carrying of firearms in public, and in some states there are no laws at all: 12 states allow individuals to carry concealed weapons in public without any licence or permit and 30 states allow the open carrying of a handgun in public without any licence or permit.
+              Open carrying of firearms in public, in some form, is currently allowed in 45 states. In only seven states are people required to provide a credible justification or demonstrated need to carry a concealed firearm. All 50 states and Washington, D.C. allow for some form of concealed carrying of firearms in public.
+              
+            </p>
+            <p>
+              In 16 recent mass shootings (there have been 16 recent mass shootings, the majority of guns used were bought legally and with a criminal background check. Top marks for background checking, however the problem is at least eight of these gunmen’s checks returneda criminal past, or documented mental health problems! 
+              When something like this shows up on a background check, the right thing to do would be to refuse sale of the firearm, and report to the police that this person is trying to buy a weapon. But the US have different outlooks on this. The laws around buying guns are so lenient that even these background checks did not prevent the sale. 
+              That’s right, the US performed background checks on people attempting to buy extremely dangerous weapons, discovered they are either a criminal or have mental health issues, then continued with the transaction.
+
+
+              
+            </p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> Birmingham UK
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Website Designer:</span> Kouamé Kouassi
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email:</span>
+                KXK119@student.bham.ac.uk
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2022 Data Analytics Bootcamp</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+    <script type="text/javascript" src="logic.js"></script>
+    <script type="text/javascript" src="mycode.js"></script>
+  </body>
+</html>
+
