@@ -8,7 +8,7 @@
 In this project, I created a platform/dashboard and three web pages where you can find data related to gun background checks in the USA from the years 2015 to 2022 for each state.
 I also created visualizations in correlation with factors (such as Median income, firearm deaths, death rate, and race firearm violence) influencing the need for checking.  
 
-I used a CSV file from GitHub - BuzzFeedNews/nics-firearm-background-checks: Monthly data from the FBI's National Instant Criminal Background Check System, converted from PDF to CSV. This data shows the criminal background check from 1998 to 2022. 
+I used a CSV file from [GitHub - BuzzFeedNews/nics-firearm-background-checks: Monthly data from the FBI's National Instant Criminal Background Check System, converted from PDF to CSV](https://github.com/BuzzFeedNews/nics-firearm-background-checks). This data shows the criminal background check from 1998 to 2022. 
 I will also use the other three small CSV files and scrap the St Louis FED’s website to retrieve the median household income by state from 2016 to 2021.
 The website we will be scraping from: https://fred.stlouisfed.org/release/tables?rid=249&eid=259515#snid=259516
 
