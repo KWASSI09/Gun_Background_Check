@@ -20,5 +20,4 @@ The website we will be scraping from: https://fred.stlouisfed.org/release/tables
 
 The data misses out on such information as some laws do not require a background check on the person buying the gun; therefore, this information will not be logged, making it not 100% accurate but still, the most precise way to log the gun sales for us to see the trends in gun purchasing.
 
-## Group members:
-* Kouassi Kouamé
+
