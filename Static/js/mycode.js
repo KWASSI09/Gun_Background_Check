@@ -1,5 +1,21 @@
+
+
 function createcharts(selected){
   console.log(selected);
+
+  d3.json("GunCheck.json").then((data)=> {
+
+    let sum = 0;
+    data.forEach(element=>{
+      sum+=element.Permit;
+    });
+
+    console.log(sum);
+
+  
+    
+    
+ })
 
   
 
@@ -22,20 +38,20 @@ function createcharts(selected){
 
 //})
 d3.json("GunCheck.json").then((data)=> {
-  console.log(data.State);
-var select = document.getElementById("selDataset");
+  //console.log(data.State);
+var dropdown = document.getElementById("selDataset");
     var options = Object.values(data.State);
     let uniqueItems = [...new Set(options)];
     
-    for(var f = 0; f < uniqueItems.length; f++) {
-        var opt = uniqueItems[f];
-        var el = document.createElement("option");
-        el.textContent = opt;
-        el.value = opt;
-        select.appendChild(el);
+    for(var i = 0; i < uniqueItems.length; i++) {
+        var opt = uniqueItems[i];
+        var element = document.createElement("option");
+        element.textContent = opt;
+        element.value = opt;
+        dropdown.appendChild(element);
     };
 
-    createcharts(el.Alabama)
+    createcharts(uniqueItems[0])
 
   });
 

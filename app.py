@@ -1,10 +1,13 @@
 
-from flask import Flask, render_template, jsonify,  redirect
+
+from flask import Flask,render_template
+
+
 import psycopg2
 
 
 # Create an instance of Flask
-app = Flask(__name__)
+app=Flask(__name__,template_folder='templates')
 
 # Establish connection to Postgresql database
 
@@ -34,7 +37,7 @@ def tableau():
 
 #-----------------------------------------------------------    
 
-#@app.route("/income", methods=['post', 'get'])
+#@app.route("/income", methods=[ 'get'])
 #def Inc():  
     #cursor.execute("select * from Income")
     #result = cursor.fetchall()
