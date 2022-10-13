@@ -1,4 +1,5 @@
 # Gun_Background_Check
+![](Images/check.jpg)
 
 ## Project 3: Gun Background Checks in the USA By State and Evaluation of factors impacting the Checks
 
@@ -12,7 +13,8 @@ I used a CSV file from [GitHub - BuzzFeedNews/nics-firearm-background-checks: Mo
 I will also use the other three small CSV files and scrap the St Louis FED’s website to retrieve the median household income by state from 2016 to 2021.
 The website we will be scraping from: https://fred.stlouisfed.org/release/tables?rid=249&eid=259515#snid=259516 .
 ### Diagram Process
-https://github.com/KWASSI09/Gun_Background_Check/blob/main/Images/check.jpg
+
+
 
 
 The data misses out on such information as some laws do not require a background check on the person buying the gun; therefore, this information will not be logged, making it not 100% accurate but still, the most precise way to log the gun sales for us to see the trends in gun purchasing.
