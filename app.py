@@ -12,7 +12,7 @@ app=Flask(__name__,template_folder='templates')
 # Establish connection to Postgresql database
 
 def get_db_connection():
-    conn = psycopg2.connect(database="Project3_db",
+    conn = psycopg2.connect(database="project3_db",
                             user="postgres",
                             password="Kouassi1989",
                             host="localhost",
@@ -28,6 +28,15 @@ def home():
 
 @app.route("/data")
 def data():
+    conn = get_db_connection()
+    cur = conn.cursor()
+    str(cur.execute("SELECT * FROM checking"))
+
+    dt = cur.fetchall()
+
+    print(dt)
+
+    
 
     return render_template("data.html")
 

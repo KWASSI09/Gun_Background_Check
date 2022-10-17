@@ -1,24 +1,26 @@
 function createcharts(selected){
-  console.log(selected);
-
-  d3.json("GunCheck.json").then((data)=> {
-
-    let sum = 0;
-    data.forEach(element=>{
-      sum+=element.Permit;
-    });
-
-    console.log(sum);
-
-  
-    
-    
- })
-
-  
-
-
+    console.log(selected);
 }
+
+    d3.json("resources/GunCheck.json").then((data)=> {
+
+      console.log(data)
+
+    
+      $('#example').DataTable( {
+          data: data['table'],
+          columns: [
+              { title: "Date" },
+              { title: "State" },
+              { title: "Permit" },
+              { title: "Permit_Rechecked" },
+              { title: "Handgun" },
+              { title: "Long_Gun" },
+              { title: "Multiple" },
+              { title: "Other" },
+          ]
+    } );
+})
 
 
 
@@ -35,7 +37,7 @@ function createcharts(selected){
 //});
 
 //})
-d3.json("GunCheck.json").then((data)=> {
+d3.json("resources/GunCheck.json").then((data)=> {
   //console.log(data.State);
 var dropdown = document.getElementById("selDataset");
     var options = Object.values(data.State);
