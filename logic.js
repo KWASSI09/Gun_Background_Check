@@ -57,7 +57,7 @@ var states = [{
 for (var i = 0; i < states.length; i++) {
   var state = states[i];
   L.marker(state.location)
-    .bindPopup(`<h1>${state.name}</h1> <hr> <h3>Population ${state.population.toLocaleString()}</h3> <hr> <h3>Permit_2016_2022 ${state.permit_2016_2022.toLocaleString()}</h3>`)
+    .bindPopup(`<h1>${state.name}</h1> <hr> <h3>Population ${state.population.toLocaleString()}</h3> <hr> <h3>Permit_2016_2022 ${state.permit_2016_2022}</h3>`)
     .addTo(myMap);
 }
 
